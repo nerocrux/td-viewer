@@ -1,0 +1,44 @@
+.divider {
+    margin-top: 40px;
+}
+
+.height250 {
+    height: 250px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.height400 {
+    height: 400px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.fancyTable {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.fancyTable td, .fancyTable th {
+    border: 0px solid #565656;
+    padding: 12px;
+}
+
+.fancyTable td {
+    font-size: 12px;
+}
+
+.fancyTable .headcol {
+    background-color: rgb(71, 71, 72);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    min-width: 120px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+.fancyTable .subcol {
+    min-width: 150px;
+    text-align: center;
+    height: 40px;
+}
+

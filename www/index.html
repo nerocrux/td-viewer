@@ -21,24 +21,47 @@
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
-        <title>Treasure Data Job Viewer</title>
+        <link rel="stylesheet" type="text/css" href="css/custom-theme.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.2.min.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css" />
+        <title>Treasure Data</title>
     </head>
     <body>
-        <div id="home" data-role="page">
-            <div data-role="header">
-                <h1><img src="img/treasure-data-logo.png" width="40%" alt="Treasure Data" /></h1>
-            </div>
-            <div data-role="content">
-            </div>
+        <div class="ui-header ui-bar-a" data-swatch="a" data-theme="a" data-form="ui-bar-a" data-role="header" role="banner">
+            <a href="#leftpanel" class="ui-btn-left ui-btn ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-btn-up-a" data-iconpos="notext" data-theme="a" data-role="button" data-icon="grid" title=" Navigation ">
+                <span class="ui-btn-inner ui-btn-corner-all">
+                    <span class="ui-btn-text"> Navigation </span>
+                    <span data-form="ui-icon" class="ui-icon ui-icon-grid ui-icon-shadow"></span>
+                </span>
+            </a>
+            <h1 class="ui-title" tabindex="0" role="heading" aria-level="1">Treasure Data</h1>
+            <a class="ui-btn-right ui-btn ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-btn-up-a" data-iconpos="notext" data-theme="a" data-role="button" data-icon="home" title=" Home ">
+                <span class="ui-btn-inner ui-btn-corner-all">
+                    <span class="ui-btn-text"> Home </span>
+                    <span data-form="ui-icon" class="ui-icon ui-icon-home ui-icon-shadow"></span>
+                </span>
+            </a>
         </div>
+        <div data-role="content" id="content"></div>
+        <div data-role="panel" id="leftpanel" data-display="reveal"></div>
+
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script type="text/javascript" src="js/moment.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+        <script type="text/javascript" src="js/api.js"></script>
         <script type="text/javascript">
             app.initialize();
+            function initialize() {
+                $('#leftpanel').load('sidebar.html').trigger("create");
+                $('#content').load('MenuItems/jobs.html').trigger("create");
+                loadKey();
+            }
+            initialize();
         </script>
     </body>
 </html>

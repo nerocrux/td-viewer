@@ -1,0 +1,37 @@
+<h2>Setup Treasure Data API Key</h2>
+<div data-role="fieldcontain">
+    <label for="apikey">You might like to copy & paste the key from a secret gist.</label>
+    <div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-a">
+        <input id="settings-apikey" type="text" placeholder="Treasure Data API Key" class="input ui-input-text ui-body-a" data-form="ui-body-a">
+    </div>
+</div>
+
+<div data-role="footer">
+    <div data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-disabled="false" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-left ui-btn-up-a" aria-disabled="false">
+        <span class="ui-btn-inner">
+            <span class="ui-btn-text">Save</span>
+            <span class="ui-icon ui-icon-star ui-icon-shadow">&nbsp;</span>
+        </span>
+        <button id="savekey" data-icon="star" data-theme="a" data-form="ui-btn-up-a" class="ui-btn-hidden" data-disabled="false">
+            Save
+        </button>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    if (localStorage['apikey'] !== undefined) {
+        $("#settings-apikey").val(localStorage['apikey']);
+    }
+    $("#savekey").click(function () {
+        if ($("#settings-apikey").val()) {
+            localStorage['apikey'] = $("input[id=settings-apikey]").val();
+            alert("API Key saved.");
+        } else {
+            alert("API Key is invalid.");
+        }
+    });
+    $("#credit").click(function() {
+        location.href("http://me.nerocrux.org/");
+    })
+</script>

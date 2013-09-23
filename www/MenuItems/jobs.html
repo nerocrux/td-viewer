@@ -1,0 +1,30 @@
+<div data-role="fieldcontain" id="temp">
+    <table class="table fancyTable">
+        <thead>
+            <tr>
+                <th>Job ID</th>
+                <th>Status</th>
+                <th>Created At</th>
+                <th>Start At</th>
+                <th>End At</th>
+                <th>Query</th>
+                <th>Type</th>
+                <th>Priority</th>
+                <th>Database</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<link href="css/fixedheadertable.css" rel="stylesheet" media="screen" />
+<link href="css/fancytable.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="js/jquery.fixedheadertable.js"></script>
+<script type="text/javascript" src="js/jobs.js"></script>
+<script type="text/javascript">
+    var apikey = loadKey();
+    var params = {"success":"setJobList"};
+    params.url = getJobList();
+    doRequest(params);
+</script>
