@@ -12,9 +12,10 @@
     <file path="/sidebar.html" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379865601583" ignored="false" />
     <file path="/api.js" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379869792831" ignored="false" />
     <file path="/a.dummy" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379856649514" ignored="false" />
-    <file path="/databases.html" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379864463560" ignored="false" />
+    <file path="/databases.html" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379954542244" ignored="false" />
     <file path="/jobs.html" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379945606298" ignored="false" />
     <file path="/jobs.js" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379949240746" ignored="false" />
+    <file path="/databases.js" changelist="6f4614ab-8f57-42c6-af14-88f8fba8eb33" time="1379955347998" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="59" selection-start="3212" selection-end="3212" vertical-scroll-proportion="-11.875">
+            <state line="51" column="59" selection-start="3049" selection-end="3049" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -126,7 +127,7 @@
       <file leaf-file-name="jobs.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/MenuItems/jobs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="-8.125">
+            <state line="23" column="0" selection-start="712" selection-end="712" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -141,50 +142,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.fixedheadertable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/jquery.fixedheadertable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="702" column="11" selection-start="26425" selection-end="26425" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1379866184000" expanded="false" signature="23653:23684" placeholder="..." />
-                <marker date="1379866184000" expanded="false" signature="24890:24907" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/MenuItems/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="9" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/MenuItems/settings.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="430" selection-end="430" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+            <state line="8" column="25" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobs.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jobs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/jobs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="29" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.7979798">
+            <state line="26" column="10" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="databases.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/MenuItems/databases.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="databases.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/databases.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="20" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.6315789">
               <folding />
             </state>
           </provider>
@@ -200,14 +197,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/js/jquery.min.map" />
         <option value="$PROJECT_DIR$/www/css/jquery.mobile.structure-1.3.2.min.css" />
         <option value="$PROJECT_DIR$/www/overview.html" />
         <option value="$PROJECT_DIR$/www/settings.html" />
         <option value="$PROJECT_DIR$/www/config.xml" />
-        <option value="$PROJECT_DIR$/www/MenuItems/databases.html" />
         <option value="$PROJECT_DIR$/www/js/angular.min.js" />
-        <option value="$PROJECT_DIR$/www/sidebar.html" />
         <option value="$PROJECT_DIR$/www/js/jquery.fixedheadertable.js" />
         <option value="$PROJECT_DIR$/www/css/fixedheadertable.css" />
         <option value="$PROJECT_DIR$/www/css/images/fancytable.css" />
@@ -216,6 +210,9 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/MenuItems/jobs.html" />
         <option value="$PROJECT_DIR$/www/js/jobs.js" />
+        <option value="$PROJECT_DIR$/www/MenuItems/databases.html" />
+        <option value="$PROJECT_DIR$/www/js/databases.js" />
+        <option value="$PROJECT_DIR$/www/sidebar.html" />
       </list>
     </option>
   </component>
@@ -621,11 +618,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/js" />
       <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$/www/MenuItems" />
       <recent name="$PROJECT_DIR$/www/img" />
       <recent name="$PROJECT_DIR$/www/res/src" />
-      <recent name="$PROJECT_DIR$/www/res/icon/ios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/css" />
@@ -751,7 +748,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1241" height="778" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -774,7 +771,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24937238" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24937238" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -851,11 +848,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-hdpi-portrait.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.35914332">
@@ -865,27 +857,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/MenuItems/databases.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-15.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.fixedheadertable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="702" column="11" selection-start="26425" selection-end="26425" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1379866184000" expanded="false" signature="23653:23684" placeholder="..." />
-            <marker date="1379866184000" expanded="false" signature="24890:24907" placeholder="..." />
+            <marker date="1379866184000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1379866184000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -893,13 +871,6 @@
     <entry file="file://$PROJECT_DIR$/www/MenuItems/settings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="21" selection-start="430" selection-end="430" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/MenuItems/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
@@ -918,27 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/fancytable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.1010101">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/moment.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19074" selection-start="19206" selection-end="19206" vertical-scroll-proportion="0.12626262">
@@ -948,23 +898,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/MenuItems/jobs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="59" selection-start="3212" selection-end="3212" vertical-scroll-proportion="-11.875">
+        <state line="23" column="0" selection-start="712" selection-end="712" vertical-scroll-proportion="-14.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/MenuItems/jobs.html">
+    <entry file="file://$PROJECT_DIR$/www/css/fancytable.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="-8.125">
+        <state line="43" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="518" column="38" selection-start="15449" selection-end="15449" vertical-scroll-proportion="0.36026937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="59" selection-start="3049" selection-end="3049" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jobs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="29" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.7979798">
+        <state line="26" column="10" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/MenuItems/databases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/databases.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.6315789">
           <folding />
         </state>
       </provider>

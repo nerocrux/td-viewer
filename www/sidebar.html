@@ -23,16 +23,6 @@
         </div>
     </li>
     <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">
-        <div class="ui-btn-inner ui-li" id="div-detail">
-            <div class="ui-btn-text">
-                <a href="" title="Detail" class="ui-link-inherit" id="sidebar-detail">
-                    Details
-                </a>
-            </div>
-            <span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
-        </div>
-    </li>
-    <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">
         <div class="ui-btn-inner ui-li" id="div-settings">
             <div class="ui-btn-text">
                 <a href="" title="Settings" class="ui-link-inherit" id="sidebar-settings">
@@ -50,11 +40,9 @@
             if (localStorage['apikey'] === undefined) {
                 $('#div-databases').addClass("ui-disabled");
                 $('#div-jobs').addClass("ui-disabled");
-                $('#div-detail').addClass("ui-disabled");
             } else {
                 $('#div-databases').removeClass("ui-disabled");
                 $('#div-jobs').removeClass("ui-disabled");
-                $('#div-detail').removeClass("ui-disabled");
             }
         }
     });
@@ -64,10 +52,6 @@
     });
     $("#sidebar-jobs").click(function () {
         $('#content').load('MenuItems/jobs.html').trigger("create");
-        $("#leftpanel").panel( "close");
-    });
-    $("#sidebar-detail").click(function () {
-        $('#content').load('MenuItems/detail.html').trigger("create");
         $("#leftpanel").panel( "close");
     });
     $("#sidebar-settings").click(function () {

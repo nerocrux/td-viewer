@@ -1,16 +1,10 @@
-<div data-role="fieldcontain">
-    <div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-inset="false" class="ui-collapsible ui-collapsible-collapsed">
-        <h2 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-fullsize ui-btn-icon-left ui-btn-up-b" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="arrow-r" data-iconpos="left" data-theme="b" data-mini="false">
-                <span class="ui-btn-inner">
-                    <span class="ui-btn-text">
-                        Pets
-                        <span class="ui-collapsible-heading-status"> details</span>
-                    </span>
-                    <span class="ui-icon ui-icon-shadow ui-icon-arrow-r">&nbsp;</span>
-                </span>
-            </a>
-        </h2>
-        <div class="ui-collapsible-content ui-body-d ui-collapsible-content-collapsed" aria-hidden="true"></div>
-    </div>
-</div>
+<ul class="list-group" id="database-list">
+</ul>
+
+<script type="text/javascript" src="js/databases.js"></script>
+<script type="text/javascript">
+    var apikey = loadKey();
+    var params = {"success":"setDatabase"};
+    params.url = getDatabaseList();
+    doRequest(params);
+</script>
